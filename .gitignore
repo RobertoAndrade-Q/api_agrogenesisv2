@@ -1,0 +1,32 @@
+# Ignorar archivos y carpetas de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar la carpeta vendor (contenidos instalados con Composer)
+vendor/
+
+# Ignorar archivos de configuración y caché de Composer
+composer.lock
+composer.phar
+
+# Ignorar el archivo de configuración de entorno (si lo usas)
+.env
+
+# Ignorar la caché de PHP
+*.cache
+*.log
+
+# Ignorar el caché de sesiones y otros archivos temporales
+/tmp
+*.tmp
+
+# Ignorar la carpeta de base de datos si contiene archivos temporales o de desarrollo
+database/
+
+# Ignorar archivos del editor (VS Code, por ejemplo)
+.vscode/
+.idea/
+
+# Ignorar otras carpetas temporales
+public/assets/
+public/uploads/
